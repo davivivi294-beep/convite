@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aniversário do Davi – 15 anos</title>
+<style>
+:root{--bg1:#0a2a6b;--bg2:#1e6fe0;--gold:#cfe8ff;--text:#ffffff;--muted:#d6e8ff;--card:rgba(255,255,255,.14);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{min-height:100vh;background:radial-gradient(circle at 20% 0%,var(--bg2),var(--bg1) 70%);color:var(--text);font-family:Georgia,"Times New Roman",serif;display:flex;justify-content:center;padding:28px 16px}
+.wrap{width:100%;max-width:420px;text-align:center}
+.tag{letter-spacing:.35em;font-size:12px;color:var(--gold);text-transform:uppercase;font-family:system-ui,sans-serif}
+.num{font-size:150px;line-height:1;margin:8px 0 0;font-weight:700;background:linear-gradient(180deg,#ffffff,#9fd0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.anos{font-size:22px;letter-spacing:.3em;text-transform:uppercase;margin-top:-6px}
+h1{font-weight:400;font-size:20px;margin:22px 0 4px;color:var(--muted)}
+.nome{font-size:44px;font-style:italic;margin:0 0 20px;color:var(--gold)}
+.line{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:18px 0}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-family:system-ui,sans-serif}
+.box{background:var(--card);border:1px solid rgba(255,255,255,.4);border-radius:14px;padding:14px 8px}
+.box small{display:block;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.box b{font-size:16px;font-weight:600}
+.gift{margin-top:22px;background:var(--card);border:1px solid rgba(255,255,255,.4);border-radius:18px;padding:20px 16px;font-family:system-ui,sans-serif}
+.gift h2{font-family:Georgia,serif;font-weight:400;font-size:22px;margin:0 0 8px;color:var(--gold)}
+.gift p{margin:0 0 14px;color:var(--muted);font-size:14px;line-height:1.5}
+.qr{background:#fff;padding:10px;border-radius:12px;display:inline-block}
+.qr img{width:200px;height:200px;display:block;image-rendering:pixelated}
+.key{margin-top:14px;font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+.key b{display:block;margin-top:4px;font-size:20px;letter-spacing:.05em;color:var(--text);user-select:all}
+.foot{margin-top:22px;font-size:14px;color:var(--muted);font-family:system-ui,sans-serif}
+.wrap{position:relative;z-index:1}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.3) rotate(-8deg)}70%{transform:scale(1.12) rotate(2deg)}100%{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-10px)}}
+@keyframes fall{from{transform:translateY(-8vh) rotate(0)}to{transform:translateY(112vh) rotate(600deg)}}
+@keyframes glow{50%{box-shadow:0 0 22px rgba(255,255,255,.55)}}
+.tag{animation:up .8s both}
+.num{animation:pop 1s .2s both;will-change:transform}
+.anos{animation:up .8s .5s both}
+h1{animation:up .8s .7s both}
+.nome{animation:pop .9s .9s both}
+.info{animation:up .8s 1.2s both}
+.gift{animation:up .8s 1.5s both}
+.foot{animation:up .8s 1.8s both}
+@keyframes rise{from{transform:translateY(0)}to{transform:translateY(-120vh)}}
+.ball{will-change:transform;position:fixed;bottom:-70px;font-size:36px;pointer-events:none;z-index:0;animation:rise linear infinite}
+.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.confetti i:nth-child(even){display:none}
+.ball:nth-of-type(n+3){display:none}
+.confetti i{will-change:transform;position:absolute;top:0;width:8px;height:14px;border-radius:2px;opacity:.85;animation:fall linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></head><body><div class="confetti"><i style="left:4%;background:#fff;animation-duration:8s;animation-delay:0s"></i><i style="left:12%;background:#7dc0ff;animation-duration:10s;animation-delay:2s"></i><i style="left:20%;background:#fff;animation-duration:7s;animation-delay:4s"></i><i style="left:29%;background:#4da3ff;animation-duration:9s;animation-delay:1s"></i><i style="left:38%;background:#cfe8ff;animation-duration:11s;animation-delay:3s"></i><i style="left:47%;background:#fff;animation-duration:8s;animation-delay:5s"></i><i style="left:56%;background:#7dc0ff;animation-duration:10s;animation-delay:0.5s"></i><i style="left:65%;background:#fff;animation-duration:7s;animation-delay:2.5s"></i><i style="left:73%;background:#4da3ff;animation-duration:9s;animation-delay:4.5s"></i><i style="left:82%;background:#cfe8ff;animation-duration:11s;animation-delay:1.5s"></i><i style="left:90%;background:#fff;animation-duration:8s;animation-delay:3.5s"></i><i style="left:96%;background:#7dc0ff;animation-duration:10s;animation-delay:6s"></i></div><span class="ball" style="left:6%;animation-duration:12s;animation-delay:1s">🎈</span><span class="ball" style="left:30%;animation-duration:15s;animation-delay:6s">🎈</span><span class="ball" style="left:62%;animation-duration:13s;animation-delay:3s">🎈</span><span class="ball" style="left:86%;animation-duration:16s;animation-delay:8s">🎈</span><div class="wrap">
+<div class="tag">🎂 Você está convidado 🎂</div>
+<div class="num">15</div>
+<div class="anos">anos</div>
+<h1>Venha comemorar o aniversário do</h1>
+<div class="nome">Davi</div>
+<div class="line"></div>
+<div class="info">
+<div class="box"><small>Local</small><b>A definir</b></div>
+<div class="box"><small>Horário</small><b>A definir</b></div>
+</div>
+<div class="gift">
+<h2>Ideia de presente</h2>
+<p>Se quiser me dar um presente, é só mandar um Pix pelo QR code.</p>
+<div class="qr"><img alt="QR code Pix" src="data:image/png;base64,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"></div>
+<div class="key">Chave Pix (CPF)<b>146.714.379-02</b></div>
+</div>
+<div class="foot">Mais detalhes em breve. Confirme sua presença por mensagem! 🎉</div>
+</div></body></html>
